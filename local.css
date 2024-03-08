@@ -1,3 +1,154 @@
-p{
-    color: red;
+*{
+    background-color: #f8e9e9 ;
 }
+.tophead{
+width: 100%;
+height: 10rem;
+/* background-color:royalblue; */
+text-align: center;
+}
+.headingone{
+    font-weight: 300;
+    background-color: #f8e9e9;
+}
+
+.headingtwo{
+    background-color: #f8e9e9;
+}
+.paraone{
+    font-size: 1.6vw;
+}
+
+.box{
+    height: 750px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.parent{
+    height: 200px;
+    width: 550px;
+    /* background-color: rgb(175, 145, 145); */
+}
+.parent-two{
+    height: 700px;
+    width: 550px;
+    /* background-color: rgb(175, 145, 145); */
+}
+
+.child{
+    height: 250px;
+    width: 80%;
+    background-color: snow;
+}
+
+.boxone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxonea{
+    height: 180px;
+    width: 300px;
+    background-color: snow;
+    display: flex;
+    border-top: 4px solid aqua;
+}
+.boxtwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxtwoa{
+    height: 180px;
+    width: 300px;
+    background-color: snow;
+    display: flex;
+    border-top: 4px solid red;
+}
+.boxtwob{
+    height: 180px;
+    width: 300px;
+    background-color: snow;
+    display: flex;
+    border-top: 4px solid yellow;
+}
+.boxthree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxthreea{
+    height: 180px;
+    width: 300px;
+    background-color: snow;
+    display: flex;
+    border-top: 4px solid blue;
+}
+
+
+
+
+
+.same1{
+    height: 180px;
+    width: 75%;
+    background-color: snow;
+}
+.same2{
+    height: 150px;
+    width: 20%;
+    background-color: snow;
+    display: flex;
+    align-items: end;
+
+}
+h2{
+    font-size: 1.7vw;
+    background-color: snow;
+}
+
+p{
+    background-color: snow;
+    font-size: 1.5vw;
+}
+
+img 
+{
+    
+    width: 4vw;
+}
+@media (max-width:600px){
+   .headingone{
+    font-size: 3vh;
+   }
+    .headingtwo{
+    font-size: 3vh;
+   }
+    .paraone{
+         font-size: 1.5vh;
+   }
+    .box{
+    flex-wrap: wrap;
+   }
+    img{
+        width:10vw;
+    }
+    h2{
+        font-size: 3vh ;
+    }
+    p{
+       font-size: 2.5vh;  
+    }
+}
+
+
+
+
+
